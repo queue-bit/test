@@ -43,7 +43,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build
         run: |
-          cwd
+          pwd
           ls
           go run main.go
       - name: Upload artifact
